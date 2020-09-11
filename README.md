@@ -12,3 +12,5 @@ kettle kjb and ktr launcher
 在airflow里的TASK里配置类似如何下面的命令
 curl.py为bin目录下的curl.py,将这个文件传到服务器相应的目录,kjbpath为kjb或ktr目录,params为相应的KTR或KJB里用到的参数
 /opt/airflow/curl.py http://ip:port/kettle/api/run '{"kjbPath": "02_FULL_UPDATE/01_ODS/01_POS/POS_TO_ODS.kjb","params":{"startWorkdate":{{ var.value.startWorkdate }}}}' 20 36000
+
+![images](https://github.com/tenele/kettleLauncher/blob/master/img/0.PNG)
